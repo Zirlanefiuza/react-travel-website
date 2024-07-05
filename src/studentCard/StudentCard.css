@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.student-card {
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .approved {
+    color: #329749;
+  }
+  
+  .failed {
+
+    color: #f12035e5;
+  }
+  
