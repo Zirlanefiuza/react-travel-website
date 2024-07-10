@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import './Header.css';
+import { useState } from "react";
+import "./Header.css";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +17,7 @@ function Header() {
           className="logo-image"
         />
       </div>
-      <nav className={menuOpen ? 'open' : ''}>
+      <nav className={menuOpen ? "open" : ""}>
         <ul className="nav">
           <li className="nav-item">
             <a className="nav-link" href="#">
